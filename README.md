@@ -13,7 +13,7 @@ No runtime dependencies, API keys or installation. Open `index.html` directly, o
 
 ## Data and uncertainty
 
-`data/records.json` contains 2010–2026. Fifteen source scans cover fourteen years; the second 2011 image is a detail of the same sheet. 2013 and 2020 have no sheets. 2026 is supplied chat transcription, with no scan in the folder. All original scans are retained under `sources/`.
+`data/records.json` contains 2010–2026. Fifteen source scans cover fourteen years; the second 2011 image is a detail of the same sheet. 2013 and 2020 have no sheets. 2026 is supplied chat transcription, with no scan in the folder. All original scans are published in the [original image archive](https://github.com/Nimpoc/park-st-halloween/tree/main/sources), with a year-by-year index. The website links directly to that archive from the notebook and footer.
 
 Time labels are interpreted as interval starts. Explicit durations take precedence; otherwise sheet cadence is used and documented. Blank rows are **unknown**, not zero, and break the curves. No missing visitors are interpolated. Running totals include only transcribed time rows. Rate comparisons normalize 20- and 30-minute observations to visitors per 15 minutes; this does not create 15-minute measurements.
 
