@@ -1,0 +1,840 @@
+{
+  "source": "Iowa Environmental Mesonet / ASOS archive",
+  "retrievedAt": "2026-11-03T09:46:23.359204+00:00",
+  "method": "Routine hourly METAR reports timestamped 17:00\u201321:59 local time on October 31. Temperatures and winds are observations, not daily extrema. Precipitation is reported preceding-hour accumulation; trace retained separately. Missing reports remain missing.",
+  "years": {
+    "2010": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2010&month1=10&day1=31&year2=2010&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2010-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 53.6,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 13009KT 10SM FEW110 12/05 A3005"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 52.0,
+          "windMph": 9.2,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010153Z 12008KT 10SM OVC110 11/04 A3003 RMK AO2 SLP175 T01110044"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 54.0,
+          "windMph": 12.7,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010253Z 15011G17KT 10SM OVC100 12/03 A3003 RMK AO2 SLP174 T01220033 56009"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 53.0,
+          "windMph": 13.8,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010353Z 12012G17KT 10SM BKN070 OVC090 12/03 A3003 RMK AO2 SLP175 T01170033"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 51.8,
+          "windMph": 9.2,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 14008KT 10SM -RA OVC055 11/04 A3002"
+        }
+      ],
+      "status": "available"
+    },
+    "2011": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2011&month1=10&day1=31&year2=2011&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2011-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 49.0,
+          "windMph": 3.5,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010053Z VRB03KT 10SM FEW044 09/02 A3039"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 46.0,
+          "windMph": 3.5,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010153Z VRB03KT 10SM FEW042 08/02 A3040"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 44.0,
+          "windMph": 3.5,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010253Z VRB03KT 10SM CLR 07/03 A3042"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 44.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 10SM CLR 07/02 A3043 RMK AO2 SLP312 T00670022"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 46.0,
+          "windMph": 4.6,
+          "precipIn": null,
+          "trace": false,
+          "metar": "KBLI 010453Z 24004KT 10SM FEW030 08/03 A3044"
+        }
+      ],
+      "status": "available"
+    },
+    "2012": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2012&month1=10&day1=31&year2=2012&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2012-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 58.0,
+          "windMph": 18.4,
+          "precipIn": 0.02,
+          "trace": false,
+          "metar": "KBLI 010053Z 16016G35KT 9SM -RA BKN024 BKN029 OVC075 14/12 A2963 RMK AO2 PK WND 14036/0012 SLP039 P0002 T01440117"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 57.0,
+          "windMph": 16.1,
+          "precipIn": 0.06,
+          "trace": false,
+          "metar": "KBLI 010153Z 15014G21KT 10SM -RA FEW021 BKN060 OVC070 14/12 A2965 RMK AO2 SLP049 P0006 T01390117"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 58.0,
+          "windMph": 11.5,
+          "precipIn": null,
+          "trace": true,
+          "metar": "KBLI 010253Z 15010G18KT 10SM FEW024 SCT080 14/11 A2966 RMK AO2 RAE25 SLP051 P0000 60008 T01440106 51022"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 58.0,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 15009G17KT 10SM SCT028 BKN034 14/10 A2967 RMK AO2 SLP054 T01440100"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 58.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 16005KT 10SM BKN027 OVC035 14/10 A2969 RMK AO2 SLP059 T01440100"
+        }
+      ],
+      "status": "available"
+    },
+    "2013": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2013&month1=10&day1=31&year2=2013&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2013-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 51.0,
+          "windMph": 9.2,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 17008KT 10SM BKN050 11/09 A3020 RMK AO2 SLP232 T01060089"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 51.0,
+          "windMph": 6.9,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 16006KT 10SM OVC011 11/09 A3021 RMK AO2 SLP236 T01060089"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 48.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 00000KT 3SM BR BKN015 BKN055 09/08 A3023 RMK AO2 SLP244 T00890083 53009"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 49.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 4SM BR OVC013 09/08 A3023 RMK AO2 SLP245 T00940083"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 50.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 00000KT 10SM SCT012 OVC018 10/09 A3024 RMK AO2 SLP246 T01000089"
+        }
+      ],
+      "status": "available"
+    },
+    "2014": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2014&month1=10&day1=31&year2=2014&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2014-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 50.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 18003KT 10SM OVC060 10/08 A2984 RMK AO2 SLP112 T01000083"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 50.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 15004KT 10SM OVC060 10/08 A2985 RMK AO2 SLP114 T01000083"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 49.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 00000KT 10SM OVC070 09/08 A2986 RMK AO2 SLP117 T00940083 51011"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 49.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 10SM OVC070 09/08 A2988 RMK AO2 SLP123 T00940083"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 47.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 00000KT 6SM BR BKN050 BKN060 08/07 A2988 RMK AO2 SLP125 T00830067"
+        }
+      ],
+      "status": "available"
+    },
+    "2015": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2015&month1=10&day1=31&year2=2015&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2015-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 55.0,
+          "windMph": 10.4,
+          "precipIn": null,
+          "trace": true,
+          "metar": "KBLI 010053Z 16009KT 10SM BKN028 BKN065 OVC075 13/10 A2960 RMK AO2 RAE15 SLP031 P0000 T01280100"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 55.0,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 16009G16KT 10SM SCT028 13/09 A2962 RMK AO2 SLP038 T01280094"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 55.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 16005KT 10SM FEW020 13/09 A2963 RMK AO2 SLP040 60000 T01280089 51008"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 52.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 10005KT 10SM FEW037 11/09 A2963 RMK AO2 SLP039 T01110089"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 52.0,
+          "windMph": 8.1,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 14007KT 10SM CLR 11/09 A2960 RMK AO2 SLP031 T01110089"
+        }
+      ],
+      "status": "available"
+    },
+    "2016": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2016&month1=10&day1=31&year2=2016&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2016-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 53.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 17004KT 10SM FEW080 12/08 A2978 RMK AO2 SLP090 T01170078"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 50.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 00000KT 10SM CLR 10/08 A2978 RMK AO2 SLP092 T01000078"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 52.0,
+          "windMph": 9.2,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 14008KT 10SM SCT070 11/08 A2979 RMK AO2 SLP094 T01110083 55000"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 51.0,
+          "windMph": 6.9,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 14006KT 10SM BKN048 11/08 A2979 RMK AO2 SLP095 T01060083"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 50.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 16004KT 10SM SCT070 10/08 A2979 RMK AO2 SLP093 T01000083"
+        }
+      ],
+      "status": "available"
+    },
+    "2017": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2017&month1=10&day1=31&year2=2017&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2017-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 51.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z VRB03KT 10SM OVC060 11/06 A2988 RMK AO2 SLP124 T01060056"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 52.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z VRB04KT 10SM OVC050 11/06 A2986 RMK AO2 SLP119 T01110056"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 52.0,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 18009KT 10SM OVC044 11/06 A2983 RMK AO2 SLP110 T01110056 58017"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 53.0,
+          "windMph": 12.7,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 17011KT 10SM OVC036 12/05 A2981 RMK AO2 SLP102 T01170050"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 52.0,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 17009G18KT 10SM BKN049 BKN070 11/05 A2981 RMK AO2 SLP102 T01110050"
+        }
+      ],
+      "status": "available"
+    },
+    "2018": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2018&month1=10&day1=31&year2=2018&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2018-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 53.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z AUTO 16005KT 10SM OVC014 12/10 A3005 RMK AO2 SLP183 T01170100"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 56.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 15004KT 10SM OVC012 13/11 A3006 RMK AO2 SLP185 T01330106"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 56.0,
+          "windMph": 8.1,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 16007KT 10SM OVC011 13/11 A3008 RMK AO2 SLP192 T01330106 53008"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 56.0,
+          "windMph": 9.2,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 16008KT 10SM OVC013 13/11 A3008 RMK AO2 SLP193 T01330111"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 56.0,
+          "windMph": 8.1,
+          "precipIn": 0.01,
+          "trace": false,
+          "metar": "KBLI 010453Z 18007KT 10SM -RA FEW014 BKN037 OVC075 13/11 A3009 RMK AO2 RAB31 SLP197 P0001 T01330111"
+        }
+      ],
+      "status": "available"
+    },
+    "2019": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2019&month1=10&day1=31&year2=2019&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2019-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 43.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 00000KT 10SM CLR 06/00 A3038 RMK AO2 SLP298 T00610000"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 39.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 00000KT 10SM CLR 04/00 A3039 RMK AO2 SLP299 T00390000"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 38.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 00000KT 10SM CLR 03/00 A3040 RMK AO2 SLP303 T00330000 51008"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 36.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 10SM CLR 02/M01 A3041 RMK AO2 SLP307 T00221011"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 36.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 00000KT 10SM CLR 02/M01 A3042 RMK AO2 SLP312 T00221011"
+        }
+      ],
+      "status": "available"
+    },
+    "2020": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2020&month1=10&day1=31&year2=2020&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2020-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 48.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 00000KT 10SM CLR 09/05 A3037 RMK AO2 SLP292 T00890050"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 46.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 35003KT 10SM CLR 08/04 A3036 RMK AO2 SLP291 T00780044"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 42.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 32003KT 9SM CLR 06/04 A3037 RMK AO2 SLP293 T00560039 55003"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 42.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 35005KT 10SM CLR 06/03 A3036 RMK AO2 SLP291 T00560028"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 41.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 02004KT 10SM CLR 05/02 A3036 RMK AO2 SLP289 T00500022"
+        }
+      ],
+      "status": "available"
+    },
+    "2021": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2021&month1=10&day1=31&year2=2021&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2021-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 50.0,
+          "windMph": 8.1,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 02007KT 10SM CLR 10/M01 A2998 RMK AO2 SLP159 T01001006"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 47.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 04004KT 10SM CLR 08/M01 A2997 RMK AO2 SLP158 T00831011"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 42.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 00000KT 10SM CLR 06/00 A2998 RMK AO2 SLP160 T00560000 55002"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 41.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 10SM CLR 05/01 A2998 RMK AO2 SLP160 T00500006"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 40.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 00000KT 10SM CLR 04/00 A2998 RMK AO2 SLP159 T00440000"
+        }
+      ],
+      "status": "available"
+    },
+    "2022": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2022&month1=10&day1=31&year2=2022&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2022-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 49.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 00000KT 10SM FEW025 SCT050 BKN100 09/07 A2980 RMK AO2 SLP100 T00940072"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 48.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 17004KT 10SM CLR 09/06 A2981 RMK AO2 SLP101 T00890061 (TJ) IEM_GHCNH"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 46.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 20003KT 10SM CLR 08/06 A2981 RMK AO2 SLP102 T00780061 $"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 45.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 18004KT 10SM CLR 07/06 A2981 RMK AO2 SLP103 T00720056 $"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 45.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 18004KT 10SM CLR 07/06 A2980 RMK AO2 SLP100 T00720056 $"
+        }
+      ],
+      "status": "available"
+    },
+    "2023": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2023&month1=10&day1=31&year2=2023&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2023-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 44.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 00000KT 10SM CLR 07/03 A3012 RMK AO2 SLP209 T00670028"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 39.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 00000KT 10SM CLR 04/02 A3013 RMK AO2 SLP212 T00390017"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 37.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 00000KT 10SM CLR 03/01 A3013 RMK AO2 SLP214 T00280006 53001"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 35.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 00000KT 10SM CLR 02/01 A3013 RMK AO2 SLP213 T00170006"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 35.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 00000KT 9SM CLR 02/01 A3014 RMK AO2 SLP216 T00170006"
+        }
+      ],
+      "status": "available"
+    },
+    "2024": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2024&month1=10&day1=31&year2=2024&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2024-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 50.0,
+          "windMph": 6.9,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 13006KT 10SM OVC060 10/04 A2980 RMK AO2 SLP100 T01000044"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 49.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 00000KT 10SM BKN050 OVC085 09/06 A2979 RMK AO2 SLP096 T00940056"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 47.0,
+          "windMph": 4.6,
+          "precipIn": null,
+          "trace": true,
+          "metar": "KBLI 010253Z 14004KT 10SM -RA OVC044 08/06 A2979 RMK AO2 RAB52 SLP094 P0000 60000 T00830061 56007"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 48.0,
+          "windMph": 8.1,
+          "precipIn": null,
+          "trace": true,
+          "metar": "KBLI 010353Z 16007KT 10SM -RA OVC042 09/06 A2978 RMK AO2 RAE10B47 SLP091 P0000 T00890056"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 46.0,
+          "windMph": 4.6,
+          "precipIn": 0.04,
+          "trace": false,
+          "metar": "KBLI 010453Z 11004KT 10SM -RA OVC045 08/07 A2977 RMK AO2 SLP087 P0004 T00780067"
+        }
+      ],
+      "status": "available"
+    },
+    "2025": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2025&month1=10&day1=31&year2=2025&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2025-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 54.0,
+          "windMph": 18.4,
+          "precipIn": 0.05,
+          "trace": false,
+          "metar": "KBLI 010053Z 17016G26KT 10SM SCT025 OVC060 12/09 A2985 RMK AO2 PK WND 16036/0034 RAE39 SLP116 P0005 T01220094"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 55.0,
+          "windMph": 15.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 18013G25KT 7SM BKN022 OVC043 13/09 A2988 RMK AO2 SLP127 T01280094"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 53.0,
+          "windMph": 12.7,
+          "precipIn": 0.01,
+          "trace": false,
+          "metar": "KBLI 010253Z 18011G19KT 7SM OVC033 12/11 A2990 RMK AO2 PK WND 16026/0158 RAB0155E49 SLP133 P0001 60006 T01170106 53021"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 53.0,
+          "windMph": 10.4,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 19009G19KT 10SM BKN029 OVC034 12/11 A2991 RMK AO2 SLP136 T01170106"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 53.0,
+          "windMph": 9.2,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 18008KT 10SM FEW026 BKN033 OVC080 12/11 A2992 RMK AO2 SLP141 T01170106"
+        }
+      ],
+      "status": "available"
+    },
+    "2026": {
+      "station": "KBLI \u00b7 Bellingham International Airport",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=BLI&data=tmpf&data=sknt&data=p01i&data=metar&year1=2026&month1=10&day1=31&year2=2026&month2=11&day2=1&tz=America%2FLos_Angeles&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3",
+      "date": "2026-10-31",
+      "timezone": "America/Los_Angeles",
+      "observations": [
+        {
+          "time": "17:53",
+          "temperatureF": 49.0,
+          "windMph": 4.6,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010053Z 30004KT 10SM CLR 09/06 A2999 RMK AO2 SLP164 T00940061"
+        },
+        {
+          "time": "18:53",
+          "temperatureF": 43.0,
+          "windMph": 0.0,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010153Z 00000KT 10SM CLR 06/06 A2999 RMK AO2 SLP163 T00610056"
+        },
+        {
+          "time": "19:53",
+          "temperatureF": 43.0,
+          "windMph": 5.8,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010253Z 32005KT 10SM CLR 06/05 A2998 RMK AO2 SLP161 T00610050 58001"
+        },
+        {
+          "time": "20:53",
+          "temperatureF": 40.0,
+          "windMph": 3.5,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010353Z 01003KT 10SM CLR 04/04 A2997 RMK AO2 SLP157 T00440039"
+        },
+        {
+          "time": "21:53",
+          "temperatureF": 43.0,
+          "windMph": 6.9,
+          "precipIn": 0.0,
+          "trace": false,
+          "metar": "KBLI 010453Z 34006KT 10SM CLR 06/04 A2997 RMK AO2 SLP156 T00610039"
+        }
+      ],
+      "status": "available"
+    }
+  }
+}

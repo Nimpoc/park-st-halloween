@@ -1,0 +1,1334 @@
+[
+  {
+    "year": 2010,
+    "sourceTotal": 128,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 128,
+    "handwrittenWeather": "Approximately 50–60°F; not raining",
+    "externalWeather": null,
+    "notes": "Blank rows are unfilled; only rows with visible tallies are included.",
+    "intervals": [
+      {
+        "time": "17:00",
+        "count": 2,
+        "minutes": 20
+      },
+      {
+        "time": "17:20",
+        "count": 1,
+        "minutes": 20
+      },
+      {
+        "time": "17:40",
+        "count": 4,
+        "minutes": 20
+      },
+      {
+        "time": "18:00",
+        "count": 18,
+        "minutes": 20
+      },
+      {
+        "time": "18:20",
+        "count": 21,
+        "minutes": 20
+      },
+      {
+        "time": "18:40",
+        "count": 32,
+        "minutes": 20
+      },
+      {
+        "time": "19:00",
+        "count": 12,
+        "minutes": 20
+      },
+      {
+        "time": "19:20",
+        "count": 11,
+        "minutes": 20
+      },
+      {
+        "time": "19:40",
+        "count": 6,
+        "minutes": 20
+      },
+      {
+        "time": "20:00",
+        "count": 9,
+        "minutes": 20
+      },
+      {
+        "time": "20:20",
+        "count": 7,
+        "minutes": 20
+      },
+      {
+        "time": "20:40",
+        "count": 5,
+        "minutes": 20
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5610.jpeg",
+        "src": "sources/2010.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2011,
+    "sourceTotal": 138,
+    "estimate": null,
+    "sourceApproximate": true,
+    "status": "recorded",
+    "confidence": "low",
+    "computedInterpretation": 89,
+    "handwrittenWeather": "Faded weather heading is not legible enough to transcribe.",
+    "externalWeather": null,
+    "notes": "Damaged, faded pink-ink sheet. Circled figures read 137 / 138; 138 is retained as an approximate written total. Only legible individual time rows are plotted; 6:30, 7:15, 8:00 and 8:30 remain unresolved. The second image is a close-up of this same sheet, not an extra year. Scribbled-out tallies at 6:45 are excluded.",
+    "intervals": [
+      {
+        "time": "17:15",
+        "count": 1,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 1,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 1,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 13,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 8,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 22,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 33,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 7,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5608.jpeg",
+        "src": "sources/2011.jpg"
+      },
+      {
+        "name": "IMG_5609.jpeg (detail of the same sheet)",
+        "src": "sources/2011-detail.jpg"
+      }
+    ],
+    "auditStatus": "reviewed-with-uncertainties"
+  },
+  {
+    "year": 2012,
+    "sourceTotal": 107,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 107,
+    "handwrittenWeather": "“windy, rain, not super cold / phone says 59°” · “Very windy”",
+    "externalWeather": null,
+    "notes": "Blank rows are unfilled; only rows with visible tallies are included.",
+    "intervals": [
+      {
+        "time": "17:30",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 1,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 18,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 30,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 9,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 10,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 2,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5607.jpeg",
+        "src": "sources/2012.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2013,
+    "sourceTotal": null,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "missing",
+    "confidence": "unknown",
+    "computedInterpretation": null,
+    "handwrittenWeather": "",
+    "externalWeather": null,
+    "notes": "",
+    "intervals": [],
+    "provenance": "No sheet supplied for this year.",
+    "sourceImages": [],
+    "auditStatus": "missing-source"
+  },
+  {
+    "year": 2014,
+    "sourceTotal": 143,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 143,
+    "handwrittenWeather": "“Clear, rainy earlier in the day”",
+    "externalWeather": null,
+    "notes": "Blank rows are unfilled; only rows with visible tallies are included.",
+    "intervals": [
+      {
+        "time": "17:45",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 15,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 29,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 26,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 18,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 9,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "21:00",
+        "count": 2,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5606.jpeg",
+        "src": "sources/2014.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2015,
+    "sourceTotal": null,
+    "estimate": 151,
+    "sourceApproximate": false,
+    "status": "reconstructed",
+    "confidence": "low",
+    "computedInterpretation": 151,
+    "handwrittenWeather": "“Crazy rain earlier, then clear for trick or treaters”",
+    "externalWeather": null,
+    "notes": "The visible tally rows sum to 151. The circled arithmetic at the lower right is clipped: 126, 32 and a further partly cut-off figure are visible. There is no fully legible authoritative annual total, so 151 is an interval-derived estimate. Earlier transcription left the year blank. The porch note says they got home at 5:30 to start tending the door.",
+    "intervals": [
+      {
+        "time": "17:30",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 28,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 28,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 6,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 20,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 5,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "20:45",
+        "count": 3,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5605(1).jpeg",
+        "src": "sources/2015.jpg"
+      }
+    ],
+    "auditStatus": "reviewed-with-uncertainties"
+  },
+  {
+    "year": 2016,
+    "sourceTotal": 208,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 195,
+    "handwrittenWeather": "",
+    "externalWeather": null,
+    "notes": "“Note: few kids went Twizzlers, most kids seek chocolate.” Explicit half-hour intervals total 195. The final “8:30” tally is 13, bringing all tallies to the written 208. Its duration is unspecified, so it is retained separately and excluded from the time curve rather than given an invented duration.",
+    "intervals": [
+      {
+        "time": "17:30",
+        "count": 29,
+        "minutes": 30
+      },
+      {
+        "time": "18:00",
+        "count": 13,
+        "minutes": 30
+      },
+      {
+        "time": "18:30",
+        "count": 72,
+        "minutes": 30
+      },
+      {
+        "time": "19:00",
+        "count": 48,
+        "minutes": 30
+      },
+      {
+        "time": "19:30",
+        "count": 33,
+        "minutes": 30
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5604(1).jpeg",
+        "src": "sources/2016.jpg"
+      }
+    ],
+    "untimedCounts": [
+      {
+        "label": "8:30 (duration unspecified)",
+        "count": 13
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2017,
+    "sourceTotal": 174,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 178,
+    "handwrittenWeather": "“52°, no rain, beautiful day”",
+    "externalWeather": null,
+    "notes": "Jessie in Mexico, Ashley + Tele on candy duty. Pretzels 2017!\n\nKid: “What’re these?”\nAsh: “They’re pretzels! … Salty is very good w/ sweet, you may understand that when you’re older.”\n\n“Thats a nice costume for a mermaid!”\nMe: “Nice doctor costume!”\nKid: “Yeah, I really like being a doctor but it wasn’t the right costume!”\nKid: “I got worms!”\nAlso, a T-Rex that barely cleared the porch.\n\nReconciliation: written total 174 excludes the final four tallies at 9:00. All time rows sum to 178. Final 9:00 duration follows the preceding 30-minute cadence.",
+    "intervals": [
+      {
+        "time": "17:45",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 55,
+        "minutes": 30
+      },
+      {
+        "time": "18:30",
+        "count": 46,
+        "minutes": 30
+      },
+      {
+        "time": "19:00",
+        "count": 35,
+        "minutes": 30
+      },
+      {
+        "time": "19:30",
+        "count": 8,
+        "minutes": 30
+      },
+      {
+        "time": "20:00",
+        "count": 20,
+        "minutes": 30
+      },
+      {
+        "time": "20:30",
+        "count": 6,
+        "minutes": 30
+      },
+      {
+        "time": "21:00",
+        "count": 4,
+        "minutes": 30
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5603(1).jpeg",
+        "src": "sources/2017.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2018,
+    "sourceTotal": 268,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 268,
+    "handwrittenWeather": "",
+    "externalWeather": null,
+    "notes": "Blank rows are unfilled; only rows with visible tallies are included.",
+    "intervals": [
+      {
+        "time": "17:00",
+        "count": 6,
+        "minutes": 15
+      },
+      {
+        "time": "17:15",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 6,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 10,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 27,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 43,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 40,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 32,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 37,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 13,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 10,
+        "minutes": 15
+      },
+      {
+        "time": "21:00",
+        "count": 3,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5602(1).jpeg",
+        "src": "sources/2018.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2019,
+    "sourceTotal": 268,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 269,
+    "handwrittenWeather": "“Clear”",
+    "externalWeather": null,
+    "notes": "“Clear” · “(dusk)” is written near 6:00. The early tally at 4:30 reads 3, while a nearby pencil subtotal reads 6. The visible individual rows sum to 269; the circled annual total is 268. Both are preserved. Crossed-out extra marks at 7:30 are excluded.",
+    "intervals": [
+      {
+        "time": "16:30",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 9,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 26,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 15,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 22,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 53,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 22,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 15,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 40,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 5,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 9,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5601(1).jpeg",
+        "src": "sources/2019.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2020,
+    "sourceTotal": null,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "missing",
+    "confidence": "unknown",
+    "computedInterpretation": null,
+    "handwrittenWeather": "",
+    "externalWeather": null,
+    "notes": "",
+    "intervals": [],
+    "provenance": "No sheet supplied for this year.",
+    "sourceImages": [],
+    "auditStatus": "missing-source"
+  },
+  {
+    "year": 2021,
+    "sourceTotal": 341,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 341,
+    "handwrittenWeather": "“Glorious, Sunny day”",
+    "externalWeather": null,
+    "notes": "“Deb!! gives bracelets (Napoleon dynamite)”\n“Zoom teacher — girl w/ cardboard computer frame, PJ bottoms + fluffy slippers!”\n\nThe handwritten numeric interval subtotals reconcile to 341. Blank rows at 8:30 and 9:00 are unfilled, not verified zeros.",
+    "intervals": [
+      {
+        "time": "16:45",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "17:00",
+        "count": 16,
+        "minutes": 15
+      },
+      {
+        "time": "17:15",
+        "count": 25,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 25,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 21,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 40,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 37,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 19,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 37,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 12,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 8,
+        "minutes": 15
+      },
+      {
+        "time": "20:45",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "21:15",
+        "count": 8,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5600(1).jpeg",
+        "src": "sources/2021.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2022,
+    "sourceTotal": 286,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "medium",
+    "computedInterpretation": 293,
+    "handwrittenWeather": "“48°, cloudy; no rain” · “no wind”",
+    "externalWeather": null,
+    "notes": "All visible tally rows total 293, including 7 visitors before 5:00. The written annual total is 286; excluding those 7 early arrivals reconciles it exactly. Both the written total and the full interval series are retained.",
+    "intervals": [
+      {
+        "time": "16:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "16:45",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "17:00",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "17:15",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 28,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 24,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 33,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 30,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 42,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 45,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 36,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 21,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 5,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 2,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5599(1).jpeg",
+        "src": "sources/2022.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2023,
+    "sourceTotal": 259,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "low",
+    "computedInterpretation": 223,
+    "handwrittenWeather": "“Clear + lovely weather”",
+    "externalWeather": null,
+    "notes": "Circled annual total: 259. Visible tally interpretation: 223. The first row at 5:45 visibly has 8 marks but its pencil margin says 13; the 7:15 numeric margin says 48 (dense tallies), retained here. Even using the first margin 13 gives 228, so the written total cannot be reconciled from the visible rows. The 8:15 and 8:30 rows contain 4 and 2 marks; their combined margin is 6. This curve is uncertain, not adjusted to force 259.",
+    "intervals": [
+      {
+        "time": "17:45",
+        "count": 8,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 21,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 42,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 31,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 16,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 6,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 48,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 29,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 13,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 2,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5598(1).jpeg",
+        "src": "sources/2023.jpg"
+      }
+    ],
+    "auditStatus": "reviewed-with-uncertainties"
+  },
+  {
+    "year": 2024,
+    "sourceTotal": 331,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "high",
+    "computedInterpretation": 331,
+    "handwrittenWeather": "“Balmy 47°; ‘not raining, really’ — Ashley”",
+    "externalWeather": null,
+    "notes": "“Carrots — Huge Hit”\n“Celery — somewhat hit”\n“garlic — good for vampires”\n“tea baggers”\n\nAll transcribed nonblank intervals reconcile exactly to the written 331. Blank rows remain unfilled.",
+    "intervals": [
+      {
+        "time": "17:15",
+        "count": 3,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 17,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 50,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 40,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 21,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 34,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 24,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 36,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 45,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 10,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 16,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5597(1).jpeg",
+        "src": "sources/2024.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
+  },
+  {
+    "year": 2025,
+    "sourceTotal": null,
+    "estimate": 231,
+    "sourceApproximate": false,
+    "status": "reconstructed",
+    "confidence": "low",
+    "computedInterpretation": 233,
+    "handwrittenWeather": "“weather — rainy + blustery”",
+    "externalWeather": null,
+    "notes": "No legible annual total appears on this sheet. The earlier chat estimated approximately 231; retained as an estimate, not a written total. The current visual interpretation sums to 233. Dense overlapping tallies at 6:45 are read as 35 and remain uncertain. Crossed-out marks at 6:00 are excluded. Blank time rows are not zeros.",
+    "intervals": [
+      {
+        "time": "17:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 7,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 11,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 16,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 23,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 29,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 15,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 37,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 30,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 10,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 5,
+        "minutes": 15
+      },
+      {
+        "time": "21:15",
+        "count": 2,
+        "minutes": 15
+      }
+    ],
+    "provenance": "Visual transcription from the original scan; see reconciliation notes. Blank rows are omitted, not assumed zero. Isolated time labels are treated as interval starts; durations follow the sheet cadence unless noted.",
+    "sourceImages": [
+      {
+        "name": "IMG_5596(1).jpeg",
+        "src": "sources/2025.jpg"
+      }
+    ],
+    "auditStatus": "reviewed-with-uncertainties"
+  },
+  {
+    "year": 2026,
+    "sourceTotal": 505,
+    "estimate": null,
+    "sourceApproximate": false,
+    "status": "recorded",
+    "confidence": "high",
+    "computedInterpretation": null,
+    "handwrittenWeather": "“Beautiful! 55°!!”",
+    "externalWeather": null,
+    "notes": "",
+    "intervals": [
+      {
+        "time": "17:00",
+        "count": 12,
+        "minutes": 15
+      },
+      {
+        "time": "17:15",
+        "count": 4,
+        "minutes": 15
+      },
+      {
+        "time": "17:30",
+        "count": 26,
+        "minutes": 15
+      },
+      {
+        "time": "17:45",
+        "count": 53,
+        "minutes": 15
+      },
+      {
+        "time": "18:00",
+        "count": 41,
+        "minutes": 15
+      },
+      {
+        "time": "18:15",
+        "count": 43,
+        "minutes": 15
+      },
+      {
+        "time": "18:30",
+        "count": 45,
+        "minutes": 15
+      },
+      {
+        "time": "18:45",
+        "count": 40,
+        "minutes": 15
+      },
+      {
+        "time": "19:00",
+        "count": 48,
+        "minutes": 15
+      },
+      {
+        "time": "19:15",
+        "count": 20,
+        "minutes": 15
+      },
+      {
+        "time": "19:30",
+        "count": 34,
+        "minutes": 15
+      },
+      {
+        "time": "19:45",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "20:00",
+        "count": 35,
+        "minutes": 15
+      },
+      {
+        "time": "20:15",
+        "count": 19,
+        "minutes": 15
+      },
+      {
+        "time": "20:30",
+        "count": 12,
+        "minutes": 15
+      },
+      {
+        "time": "20:45",
+        "count": 28,
+        "minutes": 15
+      },
+      {
+        "time": "21:00",
+        "count": 5,
+        "minutes": 15
+      },
+      {
+        "time": "21:15",
+        "count": 2,
+        "minutes": 15
+      },
+      {
+        "time": "21:30",
+        "count": 0,
+        "minutes": 15
+      },
+      {
+        "time": "21:45",
+        "count": 3,
+        "minutes": 15
+      }
+    ],
+    "provenance": "2026 counts supplied in the earlier chat. No 2026 source scan was included in the provided folder.",
+    "sourceImages": [],
+    "auditStatus": "chat-transcription"
+  }
+]
