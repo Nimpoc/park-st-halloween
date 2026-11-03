@@ -31,3 +31,16 @@ Native Safari automation did not respond, so engine-specific Safari and physical
 ## Data limitations
 
 `DATA_AUDIT.md` and each year's on-screen notes identify unresolved handwriting, incomplete time coverage, and cadence assumptions. The subsequently supplied 2026 original (IMG_8848.JPEG) was visually reviewed and linked. All 19 nonblank time rows match the retained counts and sum to 505; the blank 9:30 row is no longer represented as a measured zero. The published image was verified byte for byte against the supplied file. Weather is cached at the airport, not measured at the house. Device-local edits do not synchronize automatically or republish the shared archive.
+
+
+## Three-edition update
+
+- Confirmed the existing data/model checks still pass; the dataset, scans and airport files are unchanged by this update.
+- Tested 72 combinations: three styles × four views × 320/375/1200px widths × dark system appearance/light visual fixture. Two narrow notebook-selector overflows were found and fixed; the affected cases were rechecked.
+- Dark mode was tested against the actual system preference. Light mode used a local-only fixture that disables dark media rules and provides the matching light chart palette; no Mac settings were changed. These fixtures are not published.
+- Verified the logo opens the three-style chooser, the chosen edition is highlighted, Escape closes it and focus returns to the logo.
+- Verified changing styles preserves the comparison mode, chosen years, time slider and displayed 341/331/505 cumulative counts. Refresh preserves the chosen style and direct URLs select the requested edition.
+- Verified the selected 2026 notebook year survives a style change, the original source image remains linked, and its edit form fits at 320px.
+- Added a temporary year with 7 visitors in one edition, verified it in another, then removed it. The real notebook remains unchanged.
+- Verified reduced-transparency/increased-contrast and reduced-motion fallbacks in a local visual fixture: header/nav backdrop blur is `none` and view animation is `none`.
+- No browser console errors or warnings during the layout checks. Physical iPhone Safari remains unverified; glass effects use web CSS with explicit solid fallbacks.

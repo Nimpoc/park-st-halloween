@@ -11,6 +11,20 @@ A responsive visual almanac of Halloween arrivals in Bellingham, Washington. Pub
 
 No runtime dependencies, API keys or installation. Open `index.html` directly, or serve the parent directory and visit `/park-st-halloween/`. All paths are relative for GitHub Pages compatibility. No live network call is needed to render the data. Original images load only when opened in the notebook.
 
+## Three site editions
+
+Tap the **Park Street logo** to switch presentations without leaving the current view or losing the selected years. The choice is remembered on the device, and the URL includes it for sharing:
+
+- [Almanac](https://nimpoc.github.io/park-st-halloween/?style=almanac): the original editorial visual essay.
+- [Fieldwork](https://nimpoc.github.io/park-st-halloween/?style=compact): compact typography, an efficient desktop chart grid, and shorter phone layouts.
+- [Liquid Glass](https://nimpoc.github.io/park-st-halloween/?style=glass): system typography, quiet content surfaces, and floating translucent navigation and controls.
+
+All editions share `data/records.json`, `bundle.js`, the calculation model, notebook storage, source scans, airport records, editing forms and backup/import flows. These are presentations of one application, so local records remain available across all three. No additional accounts or separate data stores are involved.
+
+`themes.css` supplies all three light and dark palettes using `prefers-color-scheme`; chart colors update with system appearance changes. Reduced transparency, increased contrast and reduced motion preferences have explicit fallbacks where the browser exposes them. `themes.js` owns the accessible modal chooser, style preference and shareable query parameter. The small pre-paint initializer avoids a flash of the wrong style.
+
+The glass edition is a **web interpretation** of [Apple's Human Interface Guidelines for materials](https://developer.apple.com/design/human-interface-guidelines/materials): glass is reserved for functional navigation, controls and sheets, while data and reading surfaces remain solid. It does not claim to implement Apple's native SwiftUI optical material.
+
 ## Data and uncertainty
 
 `data/records.json` contains 2010–2026. Sixteen source scans cover fifteen years; the second 2011 image is a detail of the same sheet. 2013 and 2020 have no sheets. The 2026 transcription has been checked against IMG_8848.JPEG; its 19 nonblank time rows sum to the written 505. All original scans are published in the [original image archive](https://github.com/Nimpoc/park-st-halloween/tree/main/sources), with a year-by-year index. The website links directly to that archive from the notebook and footer.
