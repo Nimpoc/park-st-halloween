@@ -1,6 +1,6 @@
 # Source audit · 2026-11-03
 
-Reviewed all 15 supplied scans. They cover fourteen years: 2010–2012, 2014–2019 and 2021–2025. IMG_5609 is a close-up of the 2011 sheet. No 2013, 2020 or 2026 original was supplied. Each source is accessible in the site's Notebook.
+Reviewed all 16 supplied scans. They cover fifteen years: 2010–2012, 2014–2019 and 2021–2026. IMG_5609 is a close-up of the 2011 sheet. No 2013 or 2020 original was supplied. Each source is accessible in the site's Notebook.
 
 | Year | Written annual / retained estimate | Time rows | Interpretation |
 |---|---:|---:|---|
@@ -20,6 +20,6 @@ Reviewed all 15 supplied scans. They cover fourteen years: 2010–2012, 2014–2
 |2023|259|223|5:45 tally reads 8, pencil margin 13. 7:15 margin 48 used for dense tallies. Even substituting first margin yields 228, not 259. Low confidence.|
 |2024|331|331|Pencil interval subtotals and visible marks reconcile. Full vegetable notes retained.|
 |2025|≈231 earlier estimate|233 current tally interpretation|No written annual total; 6:45 overlapping groups read as 35, uncertain. Keep prior estimate and computed series separate. Rainy/blustery note recovered.|
-|2026|505 supplied transcription|505|20 supplied 15-minute counts; original sheet unavailable|
+|2026|505|505|IMG_8848.JPEG visually reviewed; 19 nonblank 15-minute rows reconcile. Blank 9:30 omitted, not converted to zero.|
 
 Duration assumptions are disclosed in each record. Blank rows never become measured zeros. Dense or damaged writing is not silently repaired to match totals. A careful source owner can edit the uncertain intervals without touching code. This is a visual transcription audit, not independent confirmation by the original tally keeper.

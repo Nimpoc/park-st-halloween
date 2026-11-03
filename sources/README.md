@@ -22,6 +22,8 @@ The original supplied images, published without altering their contents. Open a 
 | 2024 | [View image](2024.jpg) | IMG_5597(1).jpeg |
 | 2025 | [View image](2025.jpg) | IMG_5596(1).jpeg |
 
-There are 15 supplied images covering 14 years. The second 2011 image is a close-up of the same sheet. No original images were supplied for 2013, 2020 or 2026; the 2026 counts were supplied as text.
+| 2026 | [View image](2026.jpg) | IMG_8848.JPEG |
+
+There are 16 supplied images covering 15 years. The second 2011 image is a close-up of the same sheet. No original images were supplied for 2013 or 2020. The 2026 scan confirms the written total of 505.
 
 [Read the transcription and reconciliation notes](../DATA_AUDIT.md)

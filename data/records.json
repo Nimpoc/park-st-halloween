@@ -1221,10 +1221,10 @@
     "sourceApproximate": false,
     "status": "recorded",
     "confidence": "high",
-    "computedInterpretation": null,
+    "computedInterpretation": 505,
     "handwrittenWeather": "“Beautiful! 55°!!”",
     "externalWeather": null,
-    "notes": "",
+    "notes": "“Beautiful! 55°!!”\n\nThe original sheet confirms the written annual total of 505 and all 19 nonblank interval counts. The 9:30 row is blank, so it is omitted from the curve rather than treated as a measured zero.",
     "intervals": [
       {
         "time": "17:00",
@@ -1317,18 +1317,18 @@
         "minutes": 15
       },
       {
-        "time": "21:30",
-        "count": 0,
-        "minutes": 15
-      },
-      {
         "time": "21:45",
         "count": 3,
         "minutes": 15
       }
     ],
-    "provenance": "2026 counts supplied in the earlier chat. No 2026 source scan was included in the provided folder.",
-    "sourceImages": [],
-    "auditStatus": "chat-transcription"
+    "provenance": "Visually checked against IMG_8848.JPEG. All 19 nonblank 15-minute time rows sum to the written total of 505. The blank 9:30 row remains unknown, not a measured zero. Time labels are treated as interval starts.",
+    "sourceImages": [
+      {
+        "name": "IMG_8848.JPEG",
+        "src": "sources/2026.jpg"
+      }
+    ],
+    "auditStatus": "visually-reviewed"
   }
 ]

@@ -4,7 +4,7 @@ rows=json.loads((ROOT/'data/records.json').read_text()); by={r['year']:r for r i
 if len(sys.argv)!=2: raise SystemExit('Usage: python3 scripts/transcribe.py /path/to/source_scans')
 scans=pathlib.Path(sys.argv[1])
 (ROOT/'sources').mkdir(exist_ok=True)
-files={2025:'IMG_5596(1).jpeg',2024:'IMG_5597(1).jpeg',2023:'IMG_5598(1).jpeg',2022:'IMG_5599(1).jpeg',2021:'IMG_5600(1).jpeg',2019:'IMG_5601(1).jpeg',2018:'IMG_5602(1).jpeg',2017:'IMG_5603(1).jpeg',2016:'IMG_5604(1).jpeg',2015:'IMG_5605(1).jpeg',2014:'IMG_5606.jpeg',2012:'IMG_5607.jpeg',2011:'IMG_5608.jpeg',2010:'IMG_5610.jpeg'}
+files={2026:'IMG_8848.JPEG',2025:'IMG_5596(1).jpeg',2024:'IMG_5597(1).jpeg',2023:'IMG_5598(1).jpeg',2022:'IMG_5599(1).jpeg',2021:'IMG_5600(1).jpeg',2019:'IMG_5601(1).jpeg',2018:'IMG_5602(1).jpeg',2017:'IMG_5603(1).jpeg',2016:'IMG_5604(1).jpeg',2015:'IMG_5605(1).jpeg',2014:'IMG_5606.jpeg',2012:'IMG_5607.jpeg',2011:'IMG_5608.jpeg',2010:'IMG_5610.jpeg'}
 for y,f in files.items():
  dest=f'{y}.jpg';shutil.copyfile(scans/f,ROOT/'sources'/dest)
  by[y]['sourceImages']=[{'name':f,'src':'sources/'+dest}]
@@ -51,12 +51,13 @@ points(2025,17*60+15,[4,7,7,11,16,23,35,29,15,37,30,10,2,5,None,None,2])
 by[2025]['handwrittenWeather']='“weather — rainy + blustery”'
 by[2025]['estimate']=231;by[2025]['sourceTotal']=None;by[2025]['confidence']='low'
 note(2025,'No legible annual total appears on this sheet. The earlier chat estimated approximately 231; retained as an estimate, not a written total. The current visual interpretation sums to 233. Dense overlapping tallies at 6:45 are read as 35 and remain uncertain. Crossed-out marks at 6:00 are excluded. Blank time rows are not zeros.')
+points(2026,17*60,[12,4,26,53,41,43,45,40,48,20,34,35,35,19,12,28,5,2,None,3])
+by[2026]['confidence']='high'
+by[2026]['notes']='Original IMG_8848.JPEG confirms the written 505 and 19 nonblank time rows. Blank 9:30 is omitted, not a measured zero.'
 for r in rows:
  if r['year'] in files:
   r['computedInterpretation']=sum(p['count'] for p in r['intervals']) if r['intervals'] else None
   r['auditStatus']='reviewed-with-uncertainties' if r['confidence']=='low' else 'visually-reviewed'
- elif r['year']==2026:
-  r['auditStatus']='chat-transcription';r['provenance']='2026 counts supplied in the earlier chat. No 2026 source scan was included in the provided folder.'
  else:r['auditStatus']='missing-source';r['provenance']='No sheet supplied for this year.'
  if r['year'] in files and not r['notes']:
   r['notes']='Blank rows are unfilled; only rows with visible tallies are included.'

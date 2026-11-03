@@ -4,7 +4,7 @@
 
 Passed `node tests/model.cjs`, JavaScript syntax checks, and `git diff --check`.
 
-Verified all 17 records, 15 source image paths, 85 airport reports and exact archive request links. Checked reconciled 2010/2012/2014/2018/2021/2024 totals; preserved 2017/2022 disagreements; preserved 2016's untimed 13. Confirmed missing annual figures stay null, 2015/2025 estimates remain approximate, 2026 sum is 505, and uncertain source notes remain present.
+Verified all 17 records, 16 source image paths, 85 airport reports and exact archive request links. Checked reconciled 2010/2012/2014/2018/2021/2024 totals; preserved 2017/2022 disagreements; preserved 2016's untimed 13. Confirmed missing annual figures stay null, 2015/2025 estimates remain approximate, 2026 sum is 505, and uncertain source notes remain present.
 
 Checked duration normalization, line breaks across gaps, cumulative interval-end timing, old/new backup import, CSV parsing/validation, mismatched year rejection, negative count rejection, and unsafe image-reference rejection.
 
@@ -30,4 +30,4 @@ Native Safari automation did not respond, so engine-specific Safari and physical
 
 ## Data limitations
 
-`DATA_AUDIT.md` and each year's on-screen notes identify unresolved handwriting, incomplete time coverage, and cadence assumptions. No original 2026 scan was supplied. Weather is cached at the airport, not measured at the house. Device-local edits do not synchronize automatically or republish the shared archive.
+`DATA_AUDIT.md` and each year's on-screen notes identify unresolved handwriting, incomplete time coverage, and cadence assumptions. The subsequently supplied 2026 original (IMG_8848.JPEG) was visually reviewed and linked. All 19 nonblank time rows match the retained counts and sum to 505; the blank 9:30 row is no longer represented as a measured zero. The published image was verified byte for byte against the supplied file. Weather is cached at the airport, not measured at the house. Device-local edits do not synchronize automatically or republish the shared archive.

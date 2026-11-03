@@ -3,13 +3,15 @@ const rows=JSON.parse(fs.readFileSync('data/records.json')),weather=JSON.parse(f
 const y=n=>rows.find(r=>r.year===n);
 rows.forEach(M.validate);
 assert.equal(M.sum(y(2026)),505);
+assert.equal(y(2026).intervals.length,19);
+assert(!y(2026).intervals.some(p=>p.time==='21:30'));
 for(const year of [2010,2012,2014,2018,2021,2024])assert.equal(M.sum(y(year)),M.total(y(year)),'Reconciled source '+year);
 assert.equal(M.sum(y(2022)),293);assert.equal(M.total(y(2022)),286);assert.equal(M.sum(y(2017)),178);assert.equal(M.total(y(2017)),174);
 assert.equal(M.sum(y(2016))+y(2016).untimedCounts[0].count,208);
 assert.equal(M.total(y(2013)),null);assert.equal(M.total(y(2020)),null);
-assert.equal(M.approximate(y(2015)),true);assert.equal(y(2026).sourceImages.length,0);
-assert.equal(rows.filter(r=>r.sourceImages.length).length,14);
-assert.equal(rows.reduce((n,r)=>n+r.sourceImages.length,0),15);
+assert.equal(M.approximate(y(2015)),true);assert.equal(y(2026).sourceImages.length,1);
+assert.equal(rows.filter(r=>r.sourceImages.length).length,15);
+assert.equal(rows.reduce((n,r)=>n+r.sourceImages.length,0),16);
 for(const r of rows)for(const i of r.sourceImages)assert(fs.existsSync(i.src));
 for(const [year,w]of Object.entries(weather.years)){assert.equal(w.observations.length,5);assert(w.url.startsWith('https://mesonet.agron.iastate.edu/'));for(const p of w.observations){assert(M.minute(p.time)>=1020&&M.minute(p.time)<1320);assert(Number.isFinite(p.temperatureF));assert(p.metar.startsWith('KBLI'));}}
 const prior=structuredClone(y(2024));const incoming=M.readBackup(JSON.parse(JSON.stringify({schemaVersion:2,overrides:{2024:{...prior,sourceTotal:332}}})));assert.equal(incoming[2024].sourceTotal,332);assert.equal(y(2024).sourceTotal,331);
@@ -20,4 +22,4 @@ assert.throws(()=>M.csvRecords('year,time,count\n2027,17:00,1\n2027,17:00,2',bas
 assert.throws(()=>M.validate({...prior,sourceImages:[{name:'bad',src:'javascript:alert(1)'}]}));assert.throws(()=>M.validate({...prior,sourceTotal:-1}));
 const segmented=M.segments({...prior,intervals:[{time:'17:00',count:20,minutes:20},{time:'18:00',count:30,minutes:30}]},'arrivals');assert.equal(segmented.length,2);assert.equal(segmented[0][0].y,15);assert.equal(segmented[1][0].y,15);
 const cum=M.segments({...prior,intervals:[{time:'17:00',count:5,minutes:15}]},'cumulative');assert.deepEqual(cum,[[{x:1020,y:0},{x:1035,y:5}]]);
-console.log('PASS: 17 records; 15 source images; 85 airport reports; source reconciliations; gaps and duration normalization; backup v1/v2; CSV ingestion; invalid data and unsafe pictures rejected.');
+console.log('PASS: 17 records; 16 source images; 85 airport reports; source reconciliations; gaps and duration normalization; backup v1/v2; CSV ingestion; invalid data and unsafe pictures rejected.');
