@@ -44,3 +44,11 @@ Native Safari automation did not respond, so engine-specific Safari and physical
 - Added a temporary year with 7 visitors in one edition, verified it in another, then removed it. The real notebook remains unchanged.
 - Verified reduced-transparency/increased-contrast and reduced-motion fallbacks in a local visual fixture: header/nav backdrop blur is `none` and view animation is `none`.
 - No browser console errors or warnings during the layout checks. Physical iPhone Safari remains unverified; glass effects use web CSS with explicit solid fallbacks.
+
+
+## Weather and notebook update · 2026-11-04
+
+- Existing archive, import and normalization tests pass. Added checks for calm winds, trace-rain handling without an invented numeric value, missing weather gaps, and finite independent domains for empty/rain/temperature axes.
+- Browser verified temperature, wind and rain; optional weather/traffic and weather/weather axes; exact axis units; missing-year arrival gaps with independent airport reports; unchanged cumulative totals 341/331/505; and no NaN/Infinity chart coordinates.
+- Checked 54 phone/desktop cases across the three styles (320, 375 and 1200px): all five primary measurements with dual axes, plus expanded notebook count sections. No horizontal page overflow or console warnings/errors.
+- Confirmed year tools precede measurement controls. Confirmed the top notebook GitHub link is absent, Edit this year is invisible when counts are collapsed and visible on the right when expanded, and opening the editor does not collapse the count group. Canceled editing without changing records.

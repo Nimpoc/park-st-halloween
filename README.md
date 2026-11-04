@@ -5,7 +5,7 @@ A responsive visual almanac of Halloween arrivals in Bellingham, Washington. Pub
 ## Experience
 
 - Editorial story with annual lollipops, a fifteen-year ridgeline portrait, cumulative overlays and a weather/turnout scatterplot.
-- Compare any combination of years: arrivals normalized per 15 minutes, known cumulative counts, actual airport temperature. Tap the chart or use its keyboard-accessible time slider. All numeric observations have table alternatives.
+- Compare any combination of years: arrivals normalized per 15 minutes, known cumulative counts, airport temperature, sustained wind and preceding-hour rain, with an optional independently scaled right y-axis. Tap the chart or use its keyboard-accessible time slider. All numeric observations have table alternatives.
 - Browse every year's notes, original scans, tally reconciliation and raw airport METAR reports.
 - Add or edit years with ordinary time/count inputs and optional source pictures. CSV import and notebook-backup restoration require a review before saving.
 
@@ -52,3 +52,12 @@ CSV requires `year,time,count` and optional `minutes` (default 15). Times use 24
 `node tests/model.cjs` checks data/source reconciliation, all image paths, airport records, missing totals, gap behavior, interval normalization, v1/v2 backup round trips, CSV ingest and invalid input rejection. `node --check app.js` and `node --check model.js` check syntax.
 
 The browser QA log in `VALIDATION.md` records responsive and interaction checks. Browser viewport tests are not a substitute for physical iPhone Safari testing.
+
+
+## Compare weather and dual axes
+
+Year selection appears before the Arrivals / Running total / Weather selector. Weather offers temperature (°F), sustained wind (mph), and preceding-hour rain (inches per hour). Enable **Two y-axes** to choose an additional measurement on the right, including arrivals or running totals. The two axes have independent ranges and explicit units; solid/filled marks use the left axis and dashed/outlined marks use the right. The numeric tables include all displayed porch and airport observations.
+
+Rain bars span the hour before the report, rather than suggesting instantaneous rainfall. Trace rain uses a hollow diamond with no invented numeric quantity. Missing weather reports break lines. A matching shape on two independent axes is not evidence of a causal relationship.
+
+In the Notebook, expand **Every transcribed count** to reveal **Edit this year** beside its heading. The edit control stays hidden while collapsed. The complete GitHub image archive remains linked in the site footer.

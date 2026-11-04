@@ -22,4 +22,12 @@ assert.throws(()=>M.csvRecords('year,time,count\n2027,17:00,1\n2027,17:00,2',bas
 assert.throws(()=>M.validate({...prior,sourceImages:[{name:'bad',src:'javascript:alert(1)'}]}));assert.throws(()=>M.validate({...prior,sourceTotal:-1}));
 const segmented=M.segments({...prior,intervals:[{time:'17:00',count:20,minutes:20},{time:'18:00',count:30,minutes:30}]},'arrivals');assert.equal(segmented.length,2);assert.equal(segmented[0][0].y,15);assert.equal(segmented[1][0].y,15);
 const cum=M.segments({...prior,intervals:[{time:'17:00',count:5,minutes:15}]},'cumulative');assert.deepEqual(cum,[[{x:1020,y:0},{x:1035,y:5}]]);
-console.log('PASS: 17 records; 16 source images; 85 airport reports; source reconciliations; gaps and duration normalization; backup v1/v2; CSV ingestion; invalid data and unsafe pictures rejected.');
+const traced=M.weatherPoints([{time:'17:53',precipIn:0,trace:true},{time:'18:53',precipIn:0,trace:false},{time:'19:53',precipIn:.04,trace:false}],'rain');
+assert.equal(traced[0].y,null);assert.equal(traced[0].trace,true);assert.equal(traced[1].y,0);assert.equal(traced[2].y,.04);
+assert.equal(M.weatherSegments([{time:'17:53',windMph:0},{time:'18:53',windMph:null},{time:'19:53',windMph:8}],'wind').length,2);
+assert.equal(M.weatherSegments([{time:'17:53',temperatureF:45},{time:'20:53',temperatureF:40}],'temperature').length,2);
+assert.equal(M.weatherPoints([{time:'17:53',windMph:0}],'wind')[0].y,0);
+for(const metric of ['temperature','wind','rain','arrivals','cumulative']){const domain=M.axisRange(metric,[]);assert(Number.isFinite(domain.min)&&domain.max>domain.min);}
+const wetDomain=M.axisRange('rain',[0,.04,.12]);assert(wetDomain.min===0&&wetDomain.max>=.12);
+const coldDomain=M.axisRange('temperature',[-10,85]);assert(coldDomain.min<=-10&&coldDomain.max>=85);
+console.log('PASS: archive integrity, normalization, imports, weather gaps, calm winds, trace rain, and independent axis domains.');
